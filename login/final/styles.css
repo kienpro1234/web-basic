@@ -87,12 +87,11 @@ a:active {
 
 .login-form {
   width: 600px;
-  min-height: 500.61px;
+  min-height: 450px;
   background-color: hsl(0, 0%, 100%);
   border-radius: 15px;
   padding: 20px 60px;
   box-sizing: border-box;
-  overflow: auto;
 }
 
 .login-form div {
@@ -132,7 +131,8 @@ a:active {
   color: #FF6F00;
   font-weight: 800;
   font-size: 50px;
-  margin: 24px 0;
+  /* margin: 24px 0; */
+  margin: 0;
 }
 
 .login-form-footer {
@@ -157,6 +157,12 @@ a:active {
   text-decoration: underline;
 
 }   
+/* 
+@media screen and (max-width: 1400px) {
+  .login-form {
+    min-height: 450px;
+  }
+} */
 
 @media screen and (max-width: 768px) {
   .login-form {
@@ -165,8 +171,10 @@ a:active {
 
   }
 
+
   .login-form div input {
       height: 25px;
+      padding: 20px;
   }
 
   .login-form .login-form-footer p {
@@ -174,3 +182,4 @@ a:active {
   
   }   
 }
+
