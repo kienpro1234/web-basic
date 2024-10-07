@@ -183,3 +183,23 @@ a:active {
   }   
 }
 
+@media screen and (max-width: 576px) {
+  .login-form {
+    max-width: 300px;
+    min-height: 300.305px;
+    padding: 20px 34px;
+
+}
+
+
+.login-form div input {
+    height: 25px;
+    padding: 20px;
+}
+
+.login-form .login-form-footer p {
+    font-size: 1rem;
+
+}   
+}
+
